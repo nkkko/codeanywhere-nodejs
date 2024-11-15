@@ -13,7 +13,8 @@
             "version": "lts",
             "nvmVersion": "0.40.0"
         },
-        "ghcr.io/devcontainers/features/git:1": {}
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/prulloac/devcontainer-features/bun:1": {}
     },
     "overrideFeatureInstallOrder": [
         "ghcr.io/devcontainers/features/common-utils",
@@ -40,7 +41,7 @@
             ]
         }
     },
-    "workspaceFolder": "/workspaces/codeanywhere-nodejs",
-    "onCreateCommand": "npm install",
+    "workspaceFolder": "/workspaces/codeanywhere-nodejs/demo",
+    "onCreateCommand": "bun install",
     "remoteUser": "continue"
 }
